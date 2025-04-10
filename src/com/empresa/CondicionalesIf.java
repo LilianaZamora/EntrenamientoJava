@@ -2,10 +2,7 @@ package com.empresa;
 
 public class CondicionalesIf {
 	public static void main(String args[]) {
-		String var1 = "¡Hola";
-		String var2 = "Equipo!";
 		int a = 400;
-		int b = 200;
 		
 		/*if(a>100)
 		{		
