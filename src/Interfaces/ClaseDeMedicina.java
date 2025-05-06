@@ -16,6 +16,11 @@ public class ClaseDeMedicina implements Estudiante{
 	}
 	
 	public void obtenerUniversidad() {
-		System.out.println("La universidad es: Universidad Pedagógica");			
+		System.out.println("La universidad es: Universidad Pedagógica");		
+	}
+	
+	public void ObtenerNombreInterface() {
+		
+		
 	}
 }

@@ -18,6 +18,11 @@ public class ClaseDeIngenieria implements Estudiante{
 		System.out.println("La universidad es:" + universidad);			
 	}
 	
+	public void ObtenerNombreInterface() {
+		
+		
+	}
+	
 	public static void main(String[] args) {
 		ClaseDeIngenieria ing  = new ClaseDeIngenieria();
 		ClaseDeMedicina med  = new ClaseDeMedicina();
