@@ -10,7 +10,11 @@ public class StringMethodClass {
 		System.out.println("En mayúsculas: " + saludo.toLowerCase());
 		System.out.println("Contiene 'wor'?: " + saludo.contains("world"));
 		System.out.println(saludo.replace("world", "World"));
-		System.out.println(saludo.concat(" Cats!"));
+		System.out.println(saludo.concat(" cats!"));
 		System.out.println(saludo.endsWith("world"));
+		
+		String text1 = "Hello world cats!";
+		System.out.println(text1.equals(saludo));
+		System.out.println("Indice de W: " + saludo.indexOf("world"));
 	}
 }
