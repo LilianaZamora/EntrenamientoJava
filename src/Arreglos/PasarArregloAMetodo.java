@@ -19,13 +19,13 @@ public class PasarArregloAMetodo {
 	}
 
 	public static void main(String[] args) {	
-		PasarArregloAMetodo arr = new PasarArregloAMetodo();
-		int arregloPrueba[] = {18,9,33,67,89};
-		arr.encontrarArreglo(arregloPrueba);
+		int arregloPrueba[] = {18, 9, 33, 67, 89};
+	    PasarArregloAMetodo.encontrarArreglo(arregloPrueba);
+	    
 	
-		//******************************************/
+		System.out.println("//*****************************************//");		
 	
-		int arregloCuarto[] = arr.getArreglo();
-		 System.out.println(arregloCuarto[2]);
+	    int arregloCuarto[] = PasarArregloAMetodo.getArreglo();
+        System.out.println(arregloCuarto[2]);
 	}
 }
