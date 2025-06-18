@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/curvesapi-1.07.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/log4j-api-2.17.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/log4j-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/poi-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/poi-ooxml-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/poi-ooxml-full-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/poi-ooxml-lite-5.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/olga.zamora/poi/xmlbeans-5.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
