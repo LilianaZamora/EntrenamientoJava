@@ -1,0 +1,64 @@
+{
+  "testdata": [
+    {
+      "testName": "LoginTest",
+      "data": [
+        {
+          "runmode": "x",
+          "browser": "Chrome",
+          "username": "Gaia",
+          "password": "123456"
+        },
+        {
+          "runmode": "y",
+          "browser": "Edge",
+          "username": "Ango",
+          "password": "123456"
+        },
+        {
+          "runmode": "z",
+          "browser": "Firefox",
+          "username": "Lila",
+          "password": "123456"
+        }
+
+      ]
+    },
+    {
+      "testName": "PurchaseProductTest",
+      "data": [
+        {
+          "runmode": "x",
+          "browser": "Firefox",
+          "productname": "Iphone 16",
+          "mincost": "5000",
+          "maxcost": "15000"
+        },
+        {
+          "runmode": "y",
+          "browser": "Brave",
+          "productname": "Android 14",
+          "mincost": "1000",
+          "maxcost": "5000"
+        }
+      ]
+    },
+    {
+      "testName": "ProductOperationTest",
+      "data": [
+        {
+          "runmode": "x",
+          "browser": "Firefox",
+          "productname": "Iphone 16",
+          "operation": "remove"
+        },
+        {
+          "runmode": "y",
+          "browser": "Brave",
+          "productname": "Android 15",
+          "operation": "add"
+        }
+      ]
+    }
+  ]
+}
